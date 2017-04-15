@@ -49,6 +49,8 @@ app.post('/facebook', function(req, res) {
     // res.sendStatus(401);
   }
   console.log(req.body);
+    console.log(req.body.entry.changed_fields);
+  
   console.log('finish quangdh0');
   console.log('finish quangdh1');
   console.log('finish quangdh2');
